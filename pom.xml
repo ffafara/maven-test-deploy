@@ -63,7 +63,7 @@
                 <configuration>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <releaseProfiles>release</releaseProfiles>
-                    <goals>deploy</goals>
+                    <goals>release</goals>
                 </configuration>
             </plugin>
         </plugins>
