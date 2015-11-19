@@ -57,6 +57,7 @@
         <profile>
             <id>release</id>
             <build>
+                <pluginManagement>
                 <plugins>
                     <plugin>
                         <groupId>de.jutzig</groupId>
@@ -73,13 +74,14 @@
                                 <configuration>
                                     <releaseName>v${project.version}</releaseName>
                                     <tag>v${project.version}</tag>
-                                    <artifact>${project.build.directory}/${project.artifactId}-${project.version}.jar</artifact>
+                                    
                                 </configuration>
                             </execution>
                         </executions>
                     </plugin>
 
                 </plugins>
+                </pluginManagement>
             </build>
         </profile>
     </profiles>
