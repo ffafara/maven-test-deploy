@@ -63,7 +63,7 @@
                 <configuration>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <releaseProfiles>release</releaseProfiles>
-                    <goals>release</goals>
+                    <goals>package de.jutzig:github-release-plugin:release</goals>
                 </configuration>
             </plugin>
         </plugins>
