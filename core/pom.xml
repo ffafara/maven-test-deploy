@@ -3,19 +3,19 @@
     <parent>
         <artifactId>maven-deploy-test</artifactId>
         <groupId>com.test</groupId>
-        <version>1.7-SNAPSHOT</version>
+        <version>1.7</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>core</artifactId>
     <packaging>jar</packaging>
-  <version>1.7-SNAPSHOT</version>
+  <version>1.7</version>
 
     <scm>
         <connection>scm:git:https://github.com/ffafara/maven-test-deploy.git</connection>
         <developerConnection>scm:git:https://github.com/ffafara/maven-test-deploy.git</developerConnection>
         <url>https://github.com/ffafara/maven-test-deploy.git</url>
-        <tag>HEAD</tag>
+        <tag>1.7</tag>
     </scm>
 
     <build>
