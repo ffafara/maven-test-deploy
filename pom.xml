@@ -47,7 +47,7 @@
                 <configuration>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <releaseProfiles>release</releaseProfiles>
-                    <goals>release</goals>
+                    <goals>de.jutzig:github-release-plugin:release</goals>
                 </configuration>
             </plugin>
         </plugins>
@@ -57,6 +57,11 @@
     <profiles>
         <profile>
             <id>release</id>
+            <activation>
+                <file>
+                    <exists>${basedir}/plugin.xml</exists>
+                </file>
+            </activation>
             <build>
                 <pluginManagement>
                 <plugins>
